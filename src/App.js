@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="relative">
-        <main className='absolute top-0 left-0 right-0 bottom-0 z-10'>
+        <main className='absolute top-0 left-0 right-0 bottom-0 h-screen w-screen z-10 bg-amber-200'>
             <section className='max-w-6xl mx-auto py-12 mono'>
                 <h1 className='text-6xl'>Jordan Ayotte</h1>
                 <p className='text-xl'>Full-Stack Web Developer</p>
@@ -34,14 +34,15 @@ function App() {
             </ul>
             </section>
         </main>
-        <section className='absolute top-0 left-0 w-64 overflow-hidden'>
+        <section className='fixed top-0 left-0 h-full w-64 z-10'>
        <Particles
+       className='absolute top-0 h-full w-full'
       id="tsparticles"
       init={particlesInit}
       
       options={{
         "fullScreen": {
-            "enable": true,
+            "enable": false,
             "zIndex": 0
         },
         "particles": {
@@ -110,6 +111,7 @@ function App() {
             }
         },
         "interactivity": {
+            detectsOn: "canvas",
             "events": {
                 "onhover": {
                     "enable": true,
