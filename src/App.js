@@ -47,14 +47,14 @@ function App() {
         },
         "particles": {
             "number": {
-                "value": 13,
+                "value": 23,
                 "density": {
                     "enable": false,
                     "value_area": 800
                 }
             },
             "color": {
-                "value": "#171717"
+                "value": "random"
             },
             "shape": {
                 "type": "circle",
@@ -92,8 +92,8 @@ function App() {
             "line_linked": {
                 "enable": true,
                 "distance": 200,
-                "color": "#171717",
-                "opacity": 0.3,
+                "color": "random",
+                "opacity": 1,
                 "width": 2
             },
             "move": {
