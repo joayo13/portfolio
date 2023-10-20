@@ -16,10 +16,10 @@ function App() {
         <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
             <section className='max-w-6xl mx-auto py-10 mono z-20 relative'>
                 <h1 className='text-6xl'>Jordan Ayotte</h1>
-                <p className='text-xl'>Full-Stack Web Developer</p>
+                <p className='text-xl italic'>Full-Stack Web Developer</p>
                 <p className='py-10 text-2xl playfair'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue, diam at condimentum tempus, nunc nulla scelerisque arcu, posuere scelerisque arcu nisi vitae nisl. Quisque porttitor accumsan fringilla. Nulla at arcu in tortor venenatis malesuada elementum sit amet neque. Maecenas ultricies lorem justo, ut dictum lectus aliquam in. Praesent cursus vel mi nec lacinia. Etiam ullamcorper, lectus nec luctus varius, purus dui rutrum libero, nec vulputate lacus magna suscipit urna. Morbi malesuada eros vel tempor ullamcorper. Praesent imperdiet facilisis viverra. Morbi interdum molestie nibh quis sollicitudin. Quisque augue diam, iaculis a iaculis porttitor, laoreet ac urna. Integer sit amet urna volutpat, porttitor lectus vel, interdum nisl.</p>
             </section>
-            <ul className='absolute text-fuchsia-600 hidden md:flex flex-col gap-4 right-4 top-4 text-2xl underline mono'>
+            <ul className='absolute hidden md:flex flex-col gap-4 right-4 top-4 text-2xl underline mono font-bold'>
               <p>1.Projects</p>
               <p>2.About</p>
               <p>3.Contact</p>
