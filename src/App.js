@@ -13,20 +13,20 @@ function App() {
 
   return (
     <div className="relative">
-        <main className='absolute top-0 left-0 right-0 bottom-0 h-screen w-screen z-10 bg-amber-200'>
-            <section className='max-w-6xl mx-auto py-12 mono'>
+        <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
+            <section className='max-w-6xl mx-auto py-10 mono z-20 relative'>
                 <h1 className='text-6xl'>Jordan Ayotte</h1>
                 <p className='text-xl'>Full-Stack Web Developer</p>
-                <p className='py-12 text-2xl playfair'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue, diam at condimentum tempus, nunc nulla scelerisque arcu, posuere scelerisque arcu nisi vitae nisl. Quisque porttitor accumsan fringilla. Nulla at arcu in tortor venenatis malesuada elementum sit amet neque. Maecenas ultricies lorem justo, ut dictum lectus aliquam in. Praesent cursus vel mi nec lacinia. Etiam ullamcorper, lectus nec luctus varius, purus dui rutrum libero, nec vulputate lacus magna suscipit urna. Morbi malesuada eros vel tempor ullamcorper. Praesent imperdiet facilisis viverra. Morbi interdum molestie nibh quis sollicitudin. Quisque augue diam, iaculis a iaculis porttitor, laoreet ac urna. Integer sit amet urna volutpat, porttitor lectus vel, interdum nisl.</p>
+                <p className='py-10 text-2xl playfair'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue, diam at condimentum tempus, nunc nulla scelerisque arcu, posuere scelerisque arcu nisi vitae nisl. Quisque porttitor accumsan fringilla. Nulla at arcu in tortor venenatis malesuada elementum sit amet neque. Maecenas ultricies lorem justo, ut dictum lectus aliquam in. Praesent cursus vel mi nec lacinia. Etiam ullamcorper, lectus nec luctus varius, purus dui rutrum libero, nec vulputate lacus magna suscipit urna. Morbi malesuada eros vel tempor ullamcorper. Praesent imperdiet facilisis viverra. Morbi interdum molestie nibh quis sollicitudin. Quisque augue diam, iaculis a iaculis porttitor, laoreet ac urna. Integer sit amet urna volutpat, porttitor lectus vel, interdum nisl.</p>
             </section>
-            <ul className='absolute flex flex-col gap-12 right-0 top-24 px-12 text-4xl underline mono text-red-900'>
+            <ul className='absolute hidden md:flex flex-col gap-4 right-4 top-4 text-2xl underline mono'>
               <p>1.Projects</p>
               <p>2.About</p>
               <p>3.Contact</p>
             </ul>
-            <section className='max-w-6xl mx-auto mono'>
+            <section className='max-w-6xl mx-auto mono z-20 relative'>
             <h2 className='text-6xl'>My Projects</h2>
-            <ul className='w-full py-12 flex justify-evenly underline'>
+            <ul className='w-full py-10 flex justify-evenly underline'>
               <li>Project 1</li>
               <li>Project 2</li>
               <li>Project 3</li>
@@ -34,7 +34,7 @@ function App() {
             </ul>
             </section>
         </main>
-        <section className='fixed top-0 left-0 h-full w-64 z-10'>
+        <section className='fixed top-0 left-0 z-10'>
        <Particles
        className='absolute top-0 h-full w-full'
       id="tsparticles"
@@ -42,15 +42,15 @@ function App() {
       
       options={{
         "fullScreen": {
-            "enable": false,
+            "enable": true,
             "zIndex": 0
         },
         "particles": {
             "number": {
-                "value": 23,
+                "value": 33,
                 "density": {
                     "enable": false,
-                    "value_area": 800
+                    "value_area": 500
                 }
             },
             "color": {
@@ -60,7 +60,7 @@ function App() {
                 "type": "circle",
             },
             "opacity": {
-                "value": 0.5,
+                "value": 1,
                 "random": false,
                 "anim": {
                     "enable": false,
@@ -93,7 +93,7 @@ function App() {
                 "enable": true,
                 "distance": 200,
                 "color": "random",
-                "opacity": 1,
+                "opacity": 0.5,
                 "width": 2
             },
             "move": {
@@ -150,7 +150,7 @@ function App() {
         },
         "retina_detect": true,
         "background": {
-            "color": "#fde68a",
+            "color": "",
             "image": "",
             "position": "50% 50%",
             "repeat": "no-repeat",
