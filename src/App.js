@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Nav from './components/Nav';
+import AnimatedCursor from 'react-animated-cursor';
 function App() {
   const particlesInit = async (main) => {
     console.log(main);
@@ -10,6 +11,7 @@ function App() {
 //TODO: IMPLEMENT VINTAGE COLOR THEME
   return (
     <div className="relative">
+        <AnimatedCursor/>
         <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
             <section className='max-w-6xl mx-auto py-10 mono z-20 relative'>
                 <h1 className='text-6xl'>Jordan Ayotte</h1>
