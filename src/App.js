@@ -1,6 +1,7 @@
-import React from 'react'; 
+import React, { useState } from 'react'; 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Nav from './components/Nav';
 function App() {
   const particlesInit = async (main) => {
     console.log(main);
@@ -20,15 +21,9 @@ function App() {
               <p>2.About</p>
               <p>3.Contact</p>
             </ul>
-            <section className='max-w-6xl mx-auto mono z-20 relative'>
-            <h2 className='text-6xl'>My Projects</h2>
-            <ul className='w-full py-10 flex justify-evenly underline'>
-              <li>Project 1</li>
-              <li>Project 2</li>
-              <li>Project 3</li>
-              <li>Project 4</li>
-            </ul>
-            </section>
+            <nav className='fixed top-0 left-0 w-full h-12 z-20'>
+            <Nav></Nav>
+            </nav>
         </main>
         <section className='fixed top-0 left-0 z-10'>
        <Particles
