@@ -11,7 +11,8 @@ function App() {
 //TODO: IMPLEMENT VINTAGE COLOR THEME
   return (
     <div className="relative">
-        <AnimatedCursor/>
+        <AnimatedCursor
+        color='255, 255, 255'/>
         <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
             <section className='max-w-6xl mx-auto py-10 mono z-20 relative'>
                 <h1 className='text-6xl'>Jordan Ayotte</h1>
