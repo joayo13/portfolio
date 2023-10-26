@@ -9,6 +9,9 @@
 .playfair {
     font-family: 'Playfair Display', sans-serif;
 }
+.flicker-text {
+  animation: cursor-blink 0.7s 7 forwards;
+}
 
 .hb {
     position: absolute;
@@ -160,3 +163,19 @@
       -o-transform: translateY(1000%) rotate(0deg);
         }
       }
+      @keyframes cursor-blink {
+        0%, 100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    @keyframes fade-in {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
