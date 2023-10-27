@@ -39,9 +39,9 @@ function Home() {
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto py-10 mono z-20 relative'>
             <h1 className='text-6xl py-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
-              <h2>1. Billy's Barber</h2>
+              <h2 className='text-green-700'>1. Billy's Barber</h2>
               <img src={billysbarber}></img>
-              <h2>2. Coffee Cat</h2>
+              <h2 className='text-green-700'>2. Coffee Cat</h2>
               <img src={coffeecat}></img>
             </ul>
             </section>
