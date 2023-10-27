@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import billysbarber from './images/billysbarber.png'
+import coffeecat from './images/coffeecat.png'
 
 function Home() {
   const nameString = 'Jordan Ayotte'
@@ -33,6 +35,15 @@ function Home() {
                 <p className='text-xl text-green-700'>Full-Stack Web Developer</p>
                 <p className='py-10 text-2xl playfair'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue, diam at condimentum tempus, nunc nulla scelerisque arcu, posuere scelerisque arcu nisi vitae nisl. Quisque porttitor accumsan fringilla. Nulla at arcu in tortor venenatis malesuada elementum sit amet neque. Maecenas ultricies lorem justo, ut dictum lectus aliquam in. Praesent cursus vel mi nec lacinia. Etiam ullamcorper, lectus nec luctus varius, purus dui rutrum libero, nec vulputate lacus magna suscipit urna. Morbi malesuada eros vel tempor ullamcorper. Praesent imperdiet facilisis viverra. Morbi interdum molestie nibh quis sollicitudin. Quisque augue diam, iaculis a iaculis porttitor, laoreet ac urna. Integer sit amet urna volutpat, porttitor lectus vel, interdum nisl.</p>
                 </div>
+            </section>
+            <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto py-10 mono z-20 relative'>
+            <h1 className='text-6xl py-4'>Projects</h1>
+            <ul className='flex flex-col gap-4'>
+              <h2>1. Billy's Barber</h2>
+              <img src={billysbarber}></img>
+              <h2>2. Coffee Cat</h2>
+              <img src={coffeecat}></img>
+            </ul>
             </section>
         </main>
         
