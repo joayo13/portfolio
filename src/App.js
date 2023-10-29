@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='relative'>
     <AnimatedCursor
-        color='255, 255, 255'
+        color='187, 247, 208'
         clickables={[
             'a',
             'input[type="text"]',
