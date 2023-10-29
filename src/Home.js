@@ -1,11 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import billysbarber from './images/billysbarber.png'
 import coffeecat from './images/coffeecat.png'
+import billysbarbermobile from './images/billysbarbermobile.png'
+import coffeecatmobile from './images/coffeecatmobile.png'
 
 function Home() {
+   useEffect(() => {
+   if(document.body.clientWidth < 768) {
+    setMobile(true)
+   } 
+  },[])
   const nameString = 'Jordan Ayotte'
   const [myName, setMyName] = useState('')
   const [loadedName, setLoadedName] = useState(false)
+  const [mobile, setMobile] = useState(false)
   function addCharacterToName() {
     let i = myName.length
     if(i === 0) {
@@ -40,9 +48,9 @@ function Home() {
             <h1 className='text-6xl py-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
               <h2 className='text-green-700'>1. Billy's Barber</h2>
-              <img src={billysbarber}></img>
+              <img src={mobile ? billysbarbermobile : billysbarber}></img>
               <h2 className='text-green-700'>2. Coffee Cat</h2>
-              <img src={coffeecat}></img>
+              <img src={mobile ? coffeecatmobile: coffeecat}></img>
             </ul>
             </section>
         </main>
