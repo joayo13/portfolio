@@ -41,10 +41,10 @@ function Home() {
                 </div>
                 <div style={loadedName ? {animation: 'fade-in 0.5s forwards'} : null} className='opacity-0'>
                 <p className='text-xl text-green-700'>Full-Stack Web Developer</p>
-                <p className='py-10 text-2xl playfair'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue, diam at condimentum tempus, nunc nulla scelerisque arcu, posuere scelerisque arcu nisi vitae nisl. Quisque porttitor accumsan fringilla. Nulla at arcu in tortor venenatis malesuada elementum sit amet neque. Maecenas ultricies lorem justo, ut dictum lectus aliquam in. Praesent cursus vel mi nec lacinia. Etiam ullamcorper, lectus nec luctus varius, purus dui rutrum libero, nec vulputate lacus magna suscipit urna. Morbi malesuada eros vel tempor ullamcorper. Praesent imperdiet facilisis viverra. Morbi interdum molestie nibh quis sollicitudin. Quisque augue diam, iaculis a iaculis porttitor, laoreet ac urna. Integer sit amet urna volutpat, porttitor lectus vel, interdum nisl.</p>
+                <p className='pt-10 text-2xl playfair'>I provide eye-catching designs and dependable applications. I'm always learning new technologies to stay up to date with current trends. You can be sure that your ideas will be translated into something visually stunning and memorable. Let me help you get your business the attention it deserves.</p>
                 </div>
             </section>
-            <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto py-10 mono z-20 relative'>
+            <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
             <h1 className='text-6xl py-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
               <h2 className='text-green-700'>1. Billy's Barber</h2>
