@@ -47,9 +47,20 @@ function Home() {
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
             <h1 className='text-6xl py-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
-              <h2 className='text-green-700'>1. Billy's Barber</h2>
+              <span>
+                <h2 className='text-green-700 pb-4'>1. Billy's Barber</h2>
+                <a href='https://billysbarber.netlify.app' className='underline pr-4'>Live Demo</a>
+                <a href='https://github.com/joayo13/barbershop' className='underline'>Source Code</a>
+              </span>
+              
+              <p>Billy's Barber is a classy and stylish reservation website built with React.</p>
               <img src={mobile ? billysbarbermobile : billysbarber}></img>
-              <h2 className='text-green-700'>2. Coffee Cat</h2>
+              <span>
+                <h2 className='text-green-700 pb-4'>2. Coffee Cat</h2>
+                <a href='https://coffeecat.netlify.app' className='underline pr-4'>Live Demo</a>
+                <a href='https://github.com/joayo13/coffeecat' className='underline'>Source Code</a>
+              </span>
+              <p>Coffee Cat is a modern and stylish e-commerce site built with React, Node.js/Express, integrated with the Stripe API for secure payments, and designed using Tailwind CSS.</p>
               <img src={mobile ? coffeecatmobile: coffeecat}></img>
             </ul>
             </section>
