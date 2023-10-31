@@ -41,7 +41,7 @@ function Home() {
                 </div>
                 <div style={loadedName ? {animation: 'fade-in 0.5s forwards'} : null} className='opacity-0'>
                 <p className='text-xl text-green-700'>Full-Stack Web Developer</p>
-                <p className='pt-10 text-2xl'>I provide eye-catching designs and dependable applications. I'm always learning to stay up to date with the newest technologies. You can be sure that your ideas will be translated into something visually stunning and memorable. Let me help you get your business the attention it deserves.</p>
+                <p className='pt-10 text-2xl'>I provide eye-catching designs and dependable applications. I'm always learning and like to stay up to date with the newest technologies. You can be sure that your ideas will be translated into something visually stunning and memorable. Let me help you get your business the attention it deserves.</p>
                 </div>
             </section>
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
