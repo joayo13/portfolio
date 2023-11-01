@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import billysbarber from './images/billysbarber.png'
 import coffeecat from './images/coffeecat.png'
+import findnearestcafe from './images/findnearestcafe.png'
 import billysbarbermobile from './images/billysbarbermobile.png'
 import coffeecatmobile from './images/coffeecatmobile.png'
+import findnearestcafemobile from './images/findnearestcafemobile.png'
+
 
 function Home() {
    useEffect(() => {
@@ -48,7 +51,7 @@ function Home() {
             <h1 className='text-6xl py-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
               <span>
-                <h2 className='text-green-700 pb-4'>1. Billy's Barber</h2>
+                <h2 className='text-green-700 pb-4 text-xl'>1. Billy's Barber</h2>
                 <a href='https://billysbarber.netlify.app' className='underline pr-4'>Live Demo</a>
                 <a href='https://github.com/joayo13/barbershop' className='underline'>Source Code</a>
               </span>
@@ -56,12 +59,19 @@ function Home() {
               <p>Billy's Barber is a classy and stylish reservation website built with React.</p>
               <img src={mobile ? billysbarbermobile : billysbarber}></img>
               <span>
-                <h2 className='text-green-700 pb-4'>2. Coffee Cat</h2>
+                <h2 className='text-green-700 pb-4 text-xl'>2. Coffee Cat</h2>
                 <a href='https://coffeecat.netlify.app' className='underline pr-4'>Live Demo</a>
                 <a href='https://github.com/joayo13/coffeecat' className='underline'>Source Code</a>
               </span>
               <p>Coffee Cat is a modern and stylish e-commerce site built with React, Node.js/Express, integrated with the Stripe API for secure payments, and designed using Tailwind CSS.</p>
               <img src={mobile ? coffeecatmobile: coffeecat}></img>
+              <span>
+                <h2 className='text-green-700 pb-4 text-xl'>3. Find Nearest Cafe</h2>
+                <a href='https://findnearestcafe.netlify.app' className='underline pr-4'>Live Demo</a>
+                <a href='https://github.com/joayo13/findnearestcafe' className='underline'>Source Code</a>
+              </span>
+              <p>Find Nearest Cafe is built with React and uses Google Maps API To find the highest rated coffee shop near the user.</p>
+              <img src={mobile ? findnearestcafemobile: findnearestcafe}></img>
             </ul>
             </section>
         </main>
