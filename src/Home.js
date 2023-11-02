@@ -5,6 +5,8 @@ import findnearestcafe from './images/findnearestcafe.png'
 import billysbarbermobile from './images/billysbarbermobile.png'
 import coffeecatmobile from './images/coffeecatmobile.png'
 import findnearestcafemobile from './images/findnearestcafemobile.png'
+import gmail from './images/gmail.png'
+import linkedin from './images/linkedin.png'
 
 
 function Home() {
@@ -44,6 +46,15 @@ function Home() {
                 </div>
                 <div style={loadedName ? {animation: 'fade-in 0.5s forwards'} : null} className='opacity-0'>
                 <p className='text-xl text-green-700'>Full-Stack Web Developer</p>
+                <span className='flex gap-4 py-4 items-center'>
+                <p className='text-xl'>Contact:</p>
+                  <a href='mailto:jordan.ayotte1999@gmail.com'>
+                    <img className='w-8 h-8' src={gmail}></img>
+                  </a>
+                  <a href='https://www.linkedin.com/in/jordan-a-b90747211'>
+                    <img className='w-8 h-8' src={linkedin}></img>
+                  </a>
+                </span>
                 <p className='pt-10 text-2xl'>I provide eye-catching designs and dependable applications. I'm always learning and like to stay up to date with the newest technologies. You can be sure that your ideas will be translated into something visually stunning and memorable. Let me help you get your business the attention it deserves.</p>
                 </div>
             </section>
