@@ -86,7 +86,9 @@ function Home() {
             </ul>
             </section>
         </main>
-        
+        <footer className='h-16 w-full bg-neutral-950 px-4 py-8'>
+          <h2 className='text-neutral-300 mono'>Jordan Ayotte 2023</h2>
+        </footer>
     </div>
   )
 }
