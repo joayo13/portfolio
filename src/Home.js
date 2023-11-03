@@ -87,7 +87,7 @@ function Home() {
             </section>
         </main>
         <footer className='h-16 w-full bg-neutral-950 px-4 py-8'>
-          <h2 className='text-green-700 mono font-bold text-center'>Thanks For Visiting, Have A Good One ✌️</h2>
+          <h2 className='text-green-700 mono text-xs font-bold text-center'>Thanks For Visiting, Have A Good One ✌️</h2>
         </footer>
     </div>
   )
