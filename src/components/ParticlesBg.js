@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { loadFull } from 'tsparticles';
 import Particles from "react-tsparticles";
 
 function ParticlesBg() {
+    const [particleAmount, setParticleAmount] = useState(33)
+    useEffect(() => {
+        if(document.body.clientWidth < 768) {
+            setParticleAmount(13)
+            return
+        } else {
+          setParticleAmount(33)
+        }
+    },[])
     const particlesInit = async (main) => {
         console.log(main);
         await loadFull(main);
@@ -20,7 +29,7 @@ function ParticlesBg() {
           },
           "particles": {
               "number": {
-                  "value": 33,
+                  "value": particleAmount,
                   "density": {
                       "enable": false,
                       "value_area": 500
