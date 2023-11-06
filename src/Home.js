@@ -52,7 +52,7 @@ function Home() {
                     <img className='w-8 h-8' src={gmail}></img>
                   </a>
                   <a href='https://www.linkedin.com/in/jordan-a-b90747211'>
-                    <img className='w-8 h-8' src={linkedin}></img>
+                    <img className='w-8 h-7' src={linkedin}></img>
                   </a>
                 </span>
                 <p className='pt-10 text-2xl'>I provide eye-catching designs and dependable applications. I'm always learning and like to stay up to date with the newest technologies. You can be sure that your ideas will be translated into something visually stunning and memorable. Let me help you get your business the attention it deserves.</p>
