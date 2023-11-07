@@ -21,10 +21,6 @@ function Home() {
   const [mobile, setMobile] = useState(false)
   function addCharacterToName() {
     let i = myName.length
-    if(i === 0) {
-        setTimeout(() => {setMyName(myName + nameString[i])}, 500)
-        return
-    }
     setMyName(myName + nameString[i])
   }
   useEffect(() => {
@@ -34,7 +30,7 @@ function Home() {
         setTimeout(() => {setLoadedName(true)}, 500)
         
     }
-  })
+  },[myName])
   return (
     <div className="relative">
         <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
