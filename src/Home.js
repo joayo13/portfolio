@@ -38,23 +38,23 @@ function Home() {
             <section className='max-w-6xl mx-auto py-10 mono z-20 relative'>
                 <div className='flex gap-1 flex-wrap'>
                 <h1 className='text-6xl py-4'>{myName}
-                <span className='text-6xl flicker-text'>|</span></h1>
-                
+                  <span className='text-6xl flicker-text'>|</span>
+                </h1>
                 </div>
                 <div style={loadedName ? {animation: 'fade-in 0.5s forwards'} : null} className='opacity-0'>
-                <p className='text-xl text-green-700'>Full-Stack Web Developer</p>
-                <span className='flex gap-4 py-4 items-center'>
-                  <a href='mailto:jordan.ayotte1999@gmail.com'>
-                    <img className='w-8 h-8' src={gmail}></img>
-                  </a>
-                  <a href='https://www.linkedin.com/in/jordan-a-b90747211'>
-                    <img className='w-8 h-7' src={linkedin}></img>
-                  </a>
-                  <a href='https://www.github.com/joayo13'>
-                    <img className='w-8 h-8' src={github}></img>
-                  </a>
-                </span>
-                <p className='pt-10 text-2xl'>I provide eye-catching designs and applications that are dependable, accessible and able to scale. I'm always learning and like to stay up to date with the newest technologies and designs. You can be sure that your ideas will be translated into something visually stunning and memorable. Let me help you get your business a great first impression.</p>
+                  <p className='text-xl text-green-700'>Full-Stack Web Developer</p>
+                  <span className='flex gap-4 py-4 items-center'>
+                    <a href='mailto:jordan.ayotte1999@gmail.com'>
+                      <img className='w-8 h-8' src={gmail}></img>
+                    </a>
+                    <a href='https://www.linkedin.com/in/jordan-a-b90747211'>
+                      <img className='w-8 h-7' src={linkedin}></img>
+                    </a>
+                    <a href='https://www.github.com/joayo13'>
+                      <img className='w-8 h-8' src={github}></img>
+                    </a>
+                  </span>
+                <p className='pt-10 text-2xl'>I provide eye-catching designs and applications that are dependable, accessible and able to scale. I'm always learning and like to stay up to date with the newest technologies and designs. You can be sure that your ideas will be made visually stunning and memorable. Let me help you get your business a great first impression.</p>
                 </div>
             </section>
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
