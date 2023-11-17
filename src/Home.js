@@ -54,7 +54,7 @@ function Home() {
                       <img className='w-8 h-8' src={github}></img>
                     </a>
                   </span>
-                <p className='pt-10 text-2xl'>I provide eye-catching designs and applications that are dependable accessible and able to scale. I'm always learning and like to stay up to date with the newest technologies and UI/UX trends. You can be sure that your ideas will be made visually stunning and memorable. Let me help you get your business a great first impression.</p>
+                <p className='pt-10 text-2xl'>I provide designs and applications that are dependable accessible and able to scale. I'm always learning and staying up to date with the newest technologies. You can be sure that your ideas will be in the right hands.</p>
                 </div>
             </section>
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
