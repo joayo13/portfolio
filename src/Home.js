@@ -54,7 +54,7 @@ function Home() {
                       <img className='w-8 h-8' src={github}></img>
                     </a>
                   </span>
-                <p className='pt-10 text-2xl'>I provide designs and applications that are dependable, accessible and able to scale. I'm always learning and staying up to date with the newest technologies. You can be sure that your ideas will be in the right hands.</p>
+                <p className='pt-10 text-2xl'>I provide designs and applications that are dependable and accessible. I'm always learning and staying up to date with the newest technologies. You can be sure that your ideas will be in the right hands.</p>
                 </div>
             </section>
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
@@ -66,7 +66,7 @@ function Home() {
                 <a href='https://github.com/joayo13/barbershop' className='underline text-xl'>Source Code</a>
               </span>
               
-              <p>Billy's Barber is a classy and stylish reservation website built with React.</p>
+              <p>Billy's Barber is a barbershop-reservation website built with React and designed with Tailwind CSS.</p>
               <img src={mobile ? billysbarbermobile : billysbarber}></img>
               <span>
                 <h2 className='text-green-700 pb-4 text-xl'>2. Coffee Cat</h2>
@@ -80,7 +80,7 @@ function Home() {
                 <a href='https://findnearestcafe.netlify.app' className='underline pr-4 text-xl'>Live Demo</a>
                 <a href='https://github.com/joayo13/findnearestcafe' className='underline text-xl'>Source Code</a>
               </span>
-              <p>Find Nearest Cafe is built with React and uses Google Maps API To find the highest rated coffee shop near the user.</p>
+              <p>Find Nearest Cafe is built with React and uses Google Maps Web API To find the highest rated coffee shop near the user.</p>
               <img src={mobile ? findnearestcafemobile: findnearestcafe}></img>
             </ul>
             </section>
