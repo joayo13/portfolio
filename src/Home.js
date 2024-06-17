@@ -54,11 +54,11 @@ function Home() {
                       <img className='w-8 h-8' src={github}></img>
                     </a>
                   </span>
-                <p className='pt-10 text-2xl'>I provide designs and web-applications that are dependable and accessible. I'm always learning and staying up to date with the newest web-technologies. Lets work together on giving your business the website it deserves.</p>
+                <p className='pt-6 text-2xl'>Self-taught web developer trying to break outside the conventions of the web. Mostly, I just want to make things people love to use.</p>
                 </div>
             </section>
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
-            <h1 className='text-6xl py-4'>Projects</h1>
+            <h1 className='text-6xl pb-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
               <span>
                 <h2 className='text-green-700 pb-4 text-xl'>1. Billy's Barber</h2>
