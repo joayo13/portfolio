@@ -5,6 +5,7 @@ import findnearestcafe from './images/findnearestcafe.png'
 import billysbarbermobile from './images/billysbarbermobile.png'
 import coffeecatmobile from './images/coffeecatmobile.png'
 import findnearestcafemobile from './images/findnearestcafemobile.png'
+import godotguru from './images/godotguru.png'
 import gmail from './images/gmail.png'
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
@@ -35,7 +36,7 @@ function Home() {
   return (
     <div className="relative">
         <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
-            <section className='max-w-6xl mx-auto py-10 mono z-20 relative'>
+            <section className='max-w-6xl mx-auto py-10 mono relative'>
                 <div className='flex gap-1 flex-wrap'>
                 <h1 className='text-6xl py-4'>{myName}
                   <span className='text-6xl flicker-text'>|</span>
@@ -60,23 +61,31 @@ function Home() {
             <section style={loadedName ? {animation: 'fade-in 0.5s forwards 300ms'} : null} className='max-w-6xl opacity-0 mx-auto mono z-20 relative'>
             <h1 className='text-6xl pb-4'>Projects</h1>
             <ul className='flex flex-col gap-4'>
+            <span>
+                <h2 className='text-green-700 pb-4 text-xl'>1. Godot Guru</h2>
+                <a href='https://godotguru.netlify.app' className='underline text-xl pr-4'>Live Demo</a>
+                <a href='https://github.com/joayo13/godotguru' className='underline text-xl'>Source Code</a>
+              </span>
+              
+              <p>Godot Guru was built with Svelte and Typescript and is an educational platform that teaches game-development.</p>
+              <img src={mobile ? godotguru : godotguru}></img>
               <span>
-                <h2 className='text-green-700 pb-4 text-xl'>1. Billy's Barber</h2>
+                <h2 className='text-green-700 pb-4 text-xl'>2. Billy's Barber</h2>
                 <a href='https://billysbarber.netlify.app' className='underline text-xl pr-4'>Live Demo</a>
-                <a href='https://github.com/joayo13/barbershop' className='underline text-xl'>Source Code</a>
+                <a href='https://github.com/joayo13/godot-guru' className='underline text-xl'>Source Code</a>
               </span>
               
               <p>Billy's Barber is a barbershop-reservation website built with React and designed with Tailwind CSS.</p>
               <img src={mobile ? billysbarbermobile : billysbarber}></img>
               <span>
-                <h2 className='text-green-700 pb-4 text-xl'>2. Coffee Cat</h2>
+                <h2 className='text-green-700 pb-4 text-xl'>3. Coffee Cat</h2>
                 <a href='https://coffeecat.netlify.app' className='underline pr-4 text-xl'>Live Demo</a>
                 <a href='https://github.com/joayo13/coffeecat' className='underline text-xl'>Source Code</a>
               </span>
               <p>Coffee Cat is a modern and stylish e-commerce site built with React, Node.js/Express, integrated with the Stripe API for secure payments, and designed using Tailwind CSS.</p>
               <img src={mobile ? coffeecatmobile: coffeecat}></img>
               <span>
-                <h2 className='text-green-700 pb-4 text-xl'>3. Find Nearest Cafe</h2>
+                <h2 className='text-green-700 pb-4 text-xl'>4. Find Nearest Cafe</h2>
                 <a href='https://findnearestcafe.netlify.app' className='underline pr-4 text-xl'>Live Demo</a>
                 <a href='https://github.com/joayo13/findnearestcafe' className='underline text-xl'>Source Code</a>
               </span>
@@ -86,7 +95,7 @@ function Home() {
             </section>
         </main>
         <footer className='h-16 w-full bg-neutral-950 px-4 py-8'>
-          <h2 className='text-green-700 mono text-xs font-bold text-center'>Thanks For Visiting, Have A Good One ✌️</h2>
+          <h2 className='text-green-700 mono text-xs font-bold text-center'>Thanks for visiting ✌️</h2>
         </footer>
     </div>
   )
