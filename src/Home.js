@@ -36,7 +36,7 @@ function Home() {
   return (
     <div className="relative">
         <main className='text-neutral-300 bg-neutral-950 px-4 min-h-screen'>
-            <section className='max-w-6xl mx-auto py-10 mono relative'>
+            <section className='max-w-6xl mx-auto py-10 mono relative z-10'>
                 <div className='flex gap-1 flex-wrap'>
                 <h1 className='text-6xl py-4'>{myName}
                   <span className='text-6xl flicker-text'>|</span>
